@@ -7,7 +7,10 @@
 - Docker,Docker Compose
 
 ## 使用方法
-imgconvディレクトリに移動して、以下のコマンドを実行する。
+$ docker-compose up --build
+を実行して環境構築を行う．
+
+次に，imgconvディレクトリに移動して、以下のコマンドを実行する。
 
 `./imgconv -s jpg -d -png [ディレクトリ]`
 
